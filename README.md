@@ -1,36 +1,97 @@
-<h1>Ecommerce Dataset Analysis Dashboard</h1>
-This repository contains a Power BI dashboard that provides a detailed analysis of an Ecommerce Dataset, aimed at understanding customer purchasing behavior, product category performance, discount utilization, and demographic trends.<br>
-<br>
-✨Dashboard Overview
-The dashboard visualizes and explores key ecommerce metrics through interactive charts and graphs:<br>
-Financial Metrics:<br>
--Sum of Net Amount: ₹158.18M<br>
--Sum of Gross Amount: ₹165.71M<br><br>
+# 🛒 Ecommerce Sales & Customer Analysis Dashboard (Power BI)
 
-Product Category Insights:<br>
--Distribution of purchases across categories like Electronics, Clothing, Beauty and Health, Home & Kitchen, etc.<br>
--A donut chart shows the count of purchases by product category.<br><br>
+An interactive Power BI dashboard that analyses ecommerce sales to understand **customer demographics, product category performance, purchasing behaviour and discount usage**.
 
-Demographic Analysis:<br>
--Count of Gender by Age Group: Identifies that the largest customer segment falls in the 25–45 age group.<br>
--Location and Gender: Breakdown of customer count by major cities (Mumbai, Delhi, Bangalore, Hyderabad, etc.) across genders.<br><br>
+![Ecommerce Dashboard](ecom.png)
 
-Discount Analysis:<br>
--Tracks which discounts were most availed by customers.<br>
--"NEWYEARS" discount was the most popular, used by 35.72K customers, significantly higher than other offers like "SEASONALOFFER" or "FESTIVE50".<br><br>
+**Business questions answered**
 
-Purchase Method Insights:<br>
-The donut chart further helps analyze which product categories dominate the purchase methods.<br><br><br>
+- How much revenue is generated, and how large is the gap between gross and net sales?
+- Which product categories drive the most purchases?
+- Who are the core customers by age group, gender and city?
+- Which discount codes are used most?
 
-📌Key Insights<br>
--The Electronics category holds the largest share of purchases (30.13%).<br>
--Mumbai leads in terms of the number of customers, followed by Delhi and Bangalore.<br>
--Customers aged 25–45 years form the core buying group.<br>
--The "NEWYEARS" discount was overwhelmingly more successful than other offers.<br><br><br>
+📄 A short summary of the findings is in [`Ecom-summary.pdf`](Ecom-summary.pdf).
 
-📝 Conclusion<br>
-This dashboard provides actionable insights for ecommerce businesses to:<br>
--Focus marketing efforts on the 25–45 age demographic.<br>
--Strategically promote popular categories like Electronics and Clothing.<br>
--Leverage highly effective discounts like "NEWYEARS" to drive sales.<br>
--Tailor regional marketing strategies, especially targeting cities with high engagement like Mumbai and Delhi.
+---
+
+## 📌 Table of Contents
+
+- [Dashboard Overview](#-dashboard-overview)
+- [Key Insights](#-key-insights)
+- [Suggested Actions](#-suggested-actions)
+- [Tools](#️-tools)
+- [How to Use](#-how-to-use)
+- [Repository Structure](#-repository-structure)
+- [Author](#-author)
+
+---
+
+## ✨ Dashboard Overview
+
+| Area                  | What it shows                                                                                         |
+| --------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Financial metrics** | Sum of Net Amount **₹158.18M** · Sum of Gross Amount **₹165.71M**                                     |
+| **Product categories** | Share of purchases by category (Electronics, Clothing, Beauty & Health, Home & Kitchen, etc.) in a donut chart |
+| **Demographics**      | Customer count by age group and gender                                                                |
+| **Location**          | Customer count by major city (Mumbai, Delhi, Bangalore, Hyderabad, etc.) and gender                   |
+| **Discounts**         | Number of customers who used each discount code                                                       |
+
+---
+
+## 💡 Key Insights
+
+- **Gross vs. net:** the gap between gross (₹165.71M) and net (₹158.18M) sales is about **₹7.53M, or 4.5% of gross**.
+- **Electronics** is the largest category, with **30.13%** of purchases.
+- **Customers aged 25–45** form the largest customer segment.
+- **Mumbai** has the most customers, followed by **Delhi** and **Bangalore**.
+- The **"NEWYEARS"** code is the most used discount, with **35.72K** customers, well ahead of codes such as "SEASONALOFFER" and "FESTIVE50".
+
+---
+
+## 🎯 Suggested Actions
+
+Based on the findings above:
+
+- Focus marketing on the **25–45** age group.
+- Promote high-share categories such as **Electronics** and **Clothing**.
+- Reuse the mechanics of the **NEWYEARS** campaign, since it clearly outperformed the other codes.
+- Tailor regional campaigns to high-engagement cities, starting with **Mumbai** and **Delhi**.
+
+---
+
+## 🛠️ Tools
+
+| Tool            | Purpose                               |
+| --------------- | ------------------------------------- |
+| Power BI        | Dashboard design and visualisation    |
+| Microsoft Excel | Source data                           |
+
+---
+
+## 🚀 How to Use
+
+1. Download or clone this repository.
+2. Open **`ecommerce_analysis.pbix`** in **Power BI Desktop**.
+3. If prompted, update the source path under **Home → Transform data → Data source settings** and point it to **`Ecommerce_data (1).xlsx`**.
+4. Click **Refresh**, then use the slicers and visuals to explore.
+
+---
+
+## 📁 Repository Structure
+
+```
+Ecommerce-Dashboard-PowerBi-Project/
+├── ecommerce_analysis.pbix      # Power BI report
+├── Ecommerce_data (1).xlsx      # Source data
+├── Ecom-summary.pdf             # Summary of findings
+├── ecom.png                     # Dashboard screenshot
+└── README.md
+```
+
+---
+
+## 👩‍💻 Author
+
+**Sanika Kadam**
+[GitHub: @Sanika881](https://github.com/Sanika881) · [LinkedIn](https://www.linkedin.com/in/sanika-kadam007/)
